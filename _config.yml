@@ -12,7 +12,7 @@ blog: "https://5lbs.org"
 resume: "https://woodrad.github.io"
 
 # Exclude things from _site/
-exclude: [Gemfile, Gemfile.lock, Rakefile, README.md]
+exclude: [Gemfile, Gemfile.lock, Rakefile, README.md, LICENSE]
 
 # Build settings
 markdown: kramdown
