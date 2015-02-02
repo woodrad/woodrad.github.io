@@ -1,8 +1,7 @@
 # Site settings
 title: mathew woodyard 
 email: "https://www.google.com/recaptcha/mailhide/d?k=01XRW-ilKwfnke1vB_a8b_Ig==&c=riTOhupE4L1XkWIBJgrF_EefWNGXLD0Hj-ddgeKAk70="
-description: >
-  Mathew Woodyard's personal web site.
+description: "Mathew Woodyard's personal web site."
 baseurl: ""
 url: "https://woodrad.com"
 github: "woodrad"
