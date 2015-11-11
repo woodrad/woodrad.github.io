@@ -9,7 +9,7 @@ jonx: "https://thejonx.github.io"
 twitter: "woodrad"
 blog: "https://blog.woodrad.com"
 debsblog: "https://debsonsoftware.com"
-resume: "https://woodrad.github.io"
+resume: "https://woodrad.com/resume.html"
 
 # Exclude things from _site/
 exclude: [Gemfile, Gemfile.lock, Rakefile, README.md, LICENSE]
