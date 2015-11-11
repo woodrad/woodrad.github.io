@@ -161,23 +161,4 @@ namespace :site do
     puts "Building site..."
     sh "bundle exec jekyll build"
   end
-
-  desc "Commit the local site to the stage-live branch on GitHub, which will publish to NFSN"
-  task :stage do
-    # Configure git if this is run in Travis CI
-    if ENV["TRAVIS"]
-      sh "git config --global user.name ${GIT_NAME}"
-      sh "git config --global user.email ${GIT_EMAIL}"
-    end
-    
-    # Switch branches and build the site.
-    sh "git checkout -b stage-live"
-    sh "bundle exec jekyll build --destination live/"
-
-    sha = `git log`.match(/[a-z0-9]{40}/)[0]
-    sh "git add live/"
-    sh "git commit -m 'Bump to @#{sha}.'"
-    sh "git push https://${GH_TOKEN}@github.com/woodrad/woodrad.github.io.git stage-live --quiet"
-    puts "Pushed updated branch stage-live."
-  end
 end
