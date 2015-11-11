@@ -7,7 +7,8 @@ url: "https://woodrad.com"
 github: "woodrad"
 jonx: "https://thejonx.github.io"
 twitter: "woodrad"
-blog: "https://5lbs.org"
+blog: "https://blog.woodrad.com"
+debsblog: "https://debsonsoftware.com"
 resume: "https://woodrad.github.io"
 
 # Exclude things from _site/
