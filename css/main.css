@@ -1,0 +1,77 @@
+/**
+ * Reset some basic elements
+ */
+body, p, pre, hr,
+dl, dd, ol, ul {
+  margin: 0;
+  padding: 0; }
+
+/**
+ * Basic styling
+ */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.1em;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #111;
+  background-color: #fdfdfd;
+  -webkit-text-size-adjust: 100%; }
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+p, pre,
+ul, ol, dl {
+  margin-bottom: 15px; }
+
+/**
+ * Links
+ */
+a {
+  color: #828282;
+  text-decoration: none; }
+  a:visited {
+    color: #5c5c5c; }
+  a:hover {
+    color: #111;
+    text-decoration: underline; }
+
+/**
+ * Wrapper
+ */
+.wrapper {
+  max-width: -webkit-calc(800px - (30px * 2));
+  max-width: calc(800px - (30px * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px; }
+  @media screen and (max-width: 800px) {
+    .wrapper {
+      max-width: -webkit-calc(800px - (30px));
+      max-width: calc(800px - (30px));
+      padding-right: 15px;
+      padding-left: 15px; } }
+
+/**
+ * Site header
+ */
+.site-header {
+  border-top: 5px solid #424242;
+  border-bottom: 1px solid #e8e8e8;
+  min-height: 56px; }
+
+/**
+ * Page content
+ */
+.page-content {
+  padding: 30px 0; }
+
+/**
+ * Clearfix
+ */
+.wrapper:after {
+  content: "";
+  display: table;
+  clear: both; }
