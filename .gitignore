@@ -95,3 +95,6 @@ ENV/
 
 # Pelican
 *.pid
+
+# vim
+*.swp
