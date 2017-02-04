@@ -95,6 +95,7 @@ ENV/
 
 # Pelican
 *.pid
+blog/output/
 
 # vim
 *.swp
