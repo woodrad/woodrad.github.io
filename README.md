@@ -8,9 +8,11 @@ To build the blog:
 
 * Install [python 3](https://www.python.org/downloads).
     Consider using [`pyenv`](https://github.com/yyuu/pyenv)
-* Install [`pelican`](http://docs.getpelican.com/en/stable/quickstart.html)
+* Install [`pelican`'s](http://docs.getpelican.com/en/stable/quickstart.html)
     dependencies with `pip install -r requirements.txt`
-* 
+  - If you want to use the `Makefile` s3 publication feature, install
+      [`s3cmd`](http://s3tools.org/s3cmd).
+* Use `pelican`'s `make` commands to build the page.
 
 
 To change the homepage: edit `index.html` and `css/main.css`.
